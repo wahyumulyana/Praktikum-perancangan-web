@@ -1,0 +1,71 @@
+ /*
+ * Praktikum CSS
+ * External Stylesheet
+ */
+
+ /* import css google font,
+ * metode lain penggunaan external css
+ */
+ @import url(http://fonts.googleapis.com/css?family=Diplomata+SC);
+
+ body {
+ font-family: 'Open Sans', sans-serif;
+ background:#6bacf8;
+ color:#fff;
+}
+
+ h1 {
+ color:#11720d;
+ text-align:center;
+ }
+
+ body > h1 {
+ font-family:'Diplomata SC', arial;
+ }
+
+ hr {
+ border:2px solid #f25656;
+ }
+
+ /* ID Selector */
+ #intro {
+ background:#11720d;
+ border:2px solid #d4d1d1;
+ }
+
+ #intro h1 {
+ text-align:left;
+ color:#fff;
+ }
+
+ table thead {
+ background:#171717;
+ }
+
+ form label {
+ width:120px;
+ display:inline-block;
+ }
+
+ form input[type="text"],
+ form textarea {
+ background:#a2fdc5;
+ border:1px solid #11720d;
+ border-radius:5px;
+ font-size:14px;
+ }
+
+ form input[type="submit"] {
+ background:#d41717;
+ color:#fff;
+ font-weight:bold;
+ padding:5px;
+ border-radius:5px;
+ border:2px solid #f55454;
+ cursor:pointer;
+ }
+
+ form input[type="submit"]:hover {
+ background:#f55454;
+ border-color:#d41717;
+ }

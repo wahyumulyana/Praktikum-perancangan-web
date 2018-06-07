@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <title>External CSS</title>
+ <!-- External CSS -->
+ <link type="text/css" rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+ <h1>External CSS</h1>
+ <hr />
+
+ <div id="intro">
+ <h1>Hello World!</h1>
+ <p>Kali ini kami belajar External CSS. Dengan metode
+external css, membuat style secara global akan lebih mudah,
+karena 1 file style.css bisa di pakai oleh beberapa file html,
+sehingga penulisan code css bisa terfokus pada 1 file
+saja.</p>
+ </div>
+
+ <h4>Membuat Table Data</h4>
+ <table border="1" cellpadding="4" cellspacing="0">
+ <thead>
+ <tr>
+ <th>No.</th>
+ <th>Fakultas</th>
+ <th>Program Studi</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td rowspan="3">1.</td>
+ <td rowspan="3">Teknik</td>
+ <td>Teknik Informatika</td>
+ </tr>
+ <tr>
+ <td>Teknik Industri</td>
+ </tr>
+ <tr>
+ <td>Teknik Lingkungan</td>
+ </tr>
+ </tbody>
+ </table>
+
+ <hr />
+ <h4>Membuat Form</h4>
+ <form action="" method="post">
+
+<label>Nama</label><input type="text" name="nama" /><br />
+
+<label>Alamat</label><textarea name="alamat" cols="20" rows="3"></textarea><br />
+ <label>Jenis
+Kelamin</label><input type="radio" name="kelamin" value="L" />
+Laki-laki <input type="radio"name="kelamin" value="P" /> Perempuan<br />
+ <input type="submit" value="Submit" />
+ </form>
+ </body>
+ </html>
